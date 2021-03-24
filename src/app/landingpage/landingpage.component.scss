@@ -1,0 +1,200 @@
+
+.huddle-landing-page{
+    background-image: url(src/assets/bg-hero-desktop.svg);
+    width: 100%;
+    height:73vh;
+}
+
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+    margin-top: 8%;
+}
+
+// .t-sec-text{
+//     display: flex;
+//     flex-direction: column;
+//     align-content: center;
+//     justify-content: center;
+// }
+
+.build-text{
+    font-family: Poppins;
+    font-weight: 700;
+    width: 70%;
+    font-size: clamp(1.5rem, 2.5rem, 3vw);
+    line-height: 50px;
+}
+
+.build-text1{
+    margin-top: 4%;
+    font-family: Open-sans;
+    font-weight: 100;
+    width: 70%;
+    line-height: 30px;
+    font-size: clamp(1rem, 1.3rem, 2vw);
+}
+
+.top-section-btn {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    width: 291px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 21px;
+    background-color:  hsl(322, 100%, 66%);
+    -webkit-box-shadow: 0 0 2px 0  hsl(322, 100%, 66%);
+    -moz-box-shadow: 0 0 2px 0  hsl(322, 100%, 66%);
+    box-shadow: 0 0 2px 0  hsl(322, 100%, 66%);
+    border: inset #FFFFFF 1px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 2.5%;
+ }
+
+.illustration-mockup{
+    width: 100%;
+    height: auto;
+}
+
+.grow-section{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    margin-top: 10%;
+    padding: 10px;
+    box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
+    -webkit-box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
+    -moz-box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
+    border-radius: 22px;
+}
+
+.g-text{
+    font-family: Poppins;
+    font-weight: 700;
+    width: 70%;
+    font-size: clamp(1.5rem, 1.65rem, 2.3vw);
+    line-height: 50px; 
+}
+
+.g-text1{
+    font-family: Open-sans;
+    font-weight: 200;
+    width: 65%;
+    line-height: 30px;
+    font-size: clamp(1rem, 1.3rem, 2vw);
+    color: hsl(208, 11%, 55%);
+}
+
+.illustration-grow{
+    width: 80%;
+    height: auto;
+}
+
+.ill_sec{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    margin-top: 2.4%;
+    padding: 10px;
+    box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
+    -webkit-box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
+    -moz-box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
+    border-radius: 22px;
+}
+
+@media only screen and (max-width: 599px){
+.grow-section, .ill_sec{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
+
+.grow-text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.flow-text{
+    font-family: Open-sans;
+    font-weight: 200;
+    width: 100%;
+    line-height: 28px;
+    font-size: clamp(1rem, 1.3rem, 2vw);
+    color: hsl(208, 11%, 55%);
+}
+
+.your-text, .flow-text{
+    font-family: Open-sans;
+    font-weight: 200;
+    width: 67%;
+    line-height: 30px;
+    font-size: clamp(1rem, 1.3rem, 2vw);
+    color: hsl(208, 11%, 55%);
+}
+
+.community{
+    position: relative;
+}
+
+.comm-div{
+    width: 45%;
+    height: 33vh;
+    margin-top: 10%;
+    margin-bottom: -10%;
+    padding: 10px;
+    box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
+    -webkit-box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
+    -moz-box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
+    border-radius: 22px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -280px;
+    background-color: #FFFFFF;
+}
+
+.comm-div-tb{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.get-btn{
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 45px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 21px;
+    background-color:  hsl(322, 100%, 66%);
+    -webkit-box-shadow: 0 0 2px 0  hsl(322, 100%, 66%);
+    -moz-box-shadow: 0 0 2px 0  hsl(322, 100%, 66%);
+    box-shadow: 0 0 2px 0  hsl(322, 100%, 66%);
+    border: inset #FFFFFF 1px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 2.5%;
+}

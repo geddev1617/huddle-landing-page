@@ -12,7 +12,7 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    LandingpageComponent
+    LandingpageComponent,
   ],
   imports: [
     BrowserModule,

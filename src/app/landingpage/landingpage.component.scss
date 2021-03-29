@@ -2,22 +2,19 @@
 .huddle-landing-page{
     background-image: url(src/assets/bg-hero-desktop.svg);
     width: 100%;
-    height:73vh;
+    height:70vh;
 }
 
 .top_section{
     display: flex;
     justify-content: space-between;
-    // flex-wrap: wrap;
-    margin-top: 8%;
+    align-items: center;
+    margin-top: 3%;
 }
 
-// .t-sec-text{
-//     display: flex;
-//     flex-direction: column;
-//     align-content: center;
-//     justify-content: center;
-// }
+.top_section:nth-child(2){
+    align-self: flex-start;
+}
 
 .build-text{
     font-family: Poppins;
@@ -69,12 +66,13 @@
 .grow-section{
     display: flex;
     justify-content: space-between;
-    height: 48vh;
+    align-items: center;
+    height: 45vh;
     margin-top: 10%;
     padding: 10px;
-    box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
-    -webkit-box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
-    -moz-box-shadow: 1px 1px 9px -1px rgba(226, 222, 222, 0.75);
+    box-shadow: 1px 1px 15px 2px rgba(226, 222, 222, 0.75);
+    -webkit-box-shadow: 1px 1px 15px 2px rgba(226, 222, 222, 0.75);
+    -moz-box-shadow: 1px 1px 15px 2px rgba(226, 222, 222, 0.75);
     border-radius: 22px;
 }
 
@@ -89,9 +87,9 @@
 .g-text1{
     font-family: Open-sans;
     font-weight: 200;
-    width: 65%;
+    width: 75%;
     line-height: 30px;
-    font-size: clamp(1rem, 1.3rem, 2vw);
+    font-size: clamp(1rem, 1.2rem, 2vw);
     color: hsl(208, 11%, 55%);
 }
 
@@ -103,6 +101,7 @@
 .ill_sec{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 45vh;
     margin-top: 2.4%;
     padding: 10px;
@@ -125,6 +124,14 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    padding: 7%;
+}
+
+.flow_text1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
 .flow-text{
@@ -132,16 +139,20 @@
     font-weight: 200;
     width: 100%;
     line-height: 28px;
-    font-size: clamp(1rem, 1.3rem, 2vw);
+    font-size: clamp(1rem, 1.2rem, 2vw);
     color: hsl(208, 11%, 55%);
 }
 
-.your-text, .flow-text{
+.flow-img{
+    padding: 7%;
+}
+
+.your-text{
     font-family: Open-sans;
     font-weight: 200;
-    width: 67%;
+    width: 75%;
     line-height: 30px;
-    font-size: clamp(1rem, 1.3rem, 2vw);
+    font-size: clamp(1rem, 1.2rem, 2vw);
     color: hsl(208, 11%, 55%);
 }
 

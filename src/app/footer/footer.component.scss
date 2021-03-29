@@ -67,16 +67,22 @@ width: 100%;
     margin: 10px;
 }
 
+.sm-b{
+    margin: 12px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
 .lorem-t{
     padding: 20px;
 }
 
 .about, .what-wd{
-    width: 80%;
+    width: 100%;
 }
 
-.footer__copy,
-.footer__attr {
+.footer__copy{
     font-size: .6875rem;
     text-align: end;
     margin-bottom: -40px;

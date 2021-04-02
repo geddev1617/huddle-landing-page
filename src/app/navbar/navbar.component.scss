@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
 }
 
@@ -18,7 +18,7 @@
     color: #000000;
     font-family: poppins, Open Sans;
     width: 215px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     padding: 21px;
     background-color: #FFFFFF;
@@ -46,4 +46,34 @@
  .huddle-svg{
      width: 75%;
      height: auto;
+ }
+
+ @media screen and (max-width: 600px){
+    .navbar-item, .navbar-item1{
+        margin-top: 4%;
+    }
+
+    .nav-btn{
+        max-width: 150px;
+        height: 10px;
+        font-size: 14px;
+    }
+
+    .huddle-svg{
+        width: 150px;
+        height: auto;
+    }
+ }
+
+ @media screen and (max-width:320px){
+    .nav-btn{
+        max-width: 140px;
+        height: 8px;
+        font-size: 14px;
+    }
+
+    .huddle-svg{
+        width: 120px;
+        height: auto;
+    }
  }

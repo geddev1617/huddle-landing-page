@@ -4,11 +4,9 @@ footer{
 
 li{
     color: #FFFFFF;
-    list-style-type: none;
 }
 
 a{
-    text-decoration: none;
     color: #FFFFFF;
 }
 
@@ -17,12 +15,13 @@ height: 70vh;
 background-color:  hsl(192, 100%, 9%);
 margin-top: 20%;
 width: 100%;
+display: flex;
+justify-content: flex-end;
 }
 
 .footer_info{
     display: flex;
-    // flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 20px;
     height: 70vh;
@@ -31,36 +30,27 @@ width: 100%;
 .lorem-text{
     font-family: Open-sans;
     font-size: 18px;
-    width: 39%;
-    margin-top: 5%;
+    width: 350px;
+    margin-top: 2.5rem;
 }
 
 .num{
-    margin-top: 3%;
-}
-
-// .footer-in{
-//     display: flex;
-//     justify-content: space-between;
-// }
-
-.footer_in:nth-child(3){
-    display: flex;
-    justify-content: flex-end;
-}
-
-.footer-sm{
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-start;
+    margin-top: 1.5rem;
 }
 
 .footer-l{
     filter: brightness(0) invert(1);
 }
 
-.copyright{
-    color: #FFFFFF;
+.flex_item_footer_info, .flex_item_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_info :nth-child(4){
+    align-self: center;
+    margin-bottom: 42px;
 }
 
 .i-cl{
@@ -78,15 +68,21 @@ width: 100%;
     padding: 20px;
 }
 
-.about, .what-wd{
-    width: 100%;
+.what_we_do, .faq, .career, .blog, .contact_u{
+    margin-top: 0.9rem;
 }
 
-.footer__copy{
-    font-size: .6875rem;
-    text-align: end;
-    margin-bottom: -40px;
-    letter-spacing: .12px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
+@media screen and (max-width: 600px){
+    .footer-section{
+        margin-top: 53%;
+        height: 100%;
+    }
+
+    .footer_info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 43%;
+        height: 100vh;
+    }
 }

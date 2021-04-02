@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
+import { CopyrightComponent } from './copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
     NavbarComponent,
     FooterComponent,
     LandingpageComponent,
+    CopyrightComponent,
   ],
   imports: [
     BrowserModule,
